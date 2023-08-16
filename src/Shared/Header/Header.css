@@ -1,0 +1,27 @@
+.nav-link {
+  position: relative;
+  display: inline-block;
+  color: black; /* Adjust the color as needed */
+}
+
+.nav-link:hover {
+  color: #86b817; /* Change color on hover */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #86b817; /* Underline color */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  opacity: 1; /* Show on hover */
+  transform: translateX(-50%) translateY(2px); /* Move down a bit */
+}
