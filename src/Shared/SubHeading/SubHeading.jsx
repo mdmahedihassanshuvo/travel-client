@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const SubHeading = () => {
     return (
-        <div className='hidden md:block md:flex relative px-6 py-3 justify-between items-center bg-[#14141F] text-[#F5F5F5]'>
+        <div className='hidden md:flex relative px-6 py-3 justify-between items-center bg-[#14141F] text-[#F5F5F5]'>
             <div className='flex '>
                 <p className='flex items-center mr-3'><FaLocationDot/> Mirpur, Dhaka</p>
                 <p className='flex items-center mr-3'><FaPhoneAlt/> +880171906206</p>
