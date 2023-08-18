@@ -6,6 +6,8 @@ import Destination from '../Destination/Destination';
 import Package from '../../Components/HomeSections/Package';
 import Booking from '../../Components/HomeSections/Booking';
 import Process from '../../Components/HomeSections/Process';
+import Guide from '../../Components/HomeSections/Guide';
+import Testimonial from '../../Components/HomeSections/Testimonial';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <Package/>
             <Booking/>
             <Process/>
+            <Guide/>
+            <Testimonial/>
         </div>
     );
 };

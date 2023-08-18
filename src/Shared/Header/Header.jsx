@@ -24,7 +24,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:p-5 font-semibold'>About</span>
+            <span className='text-xl md:px-2 font-semibold'>About</span>
         </NavLink>
         <NavLink
             to='/service'
@@ -34,7 +34,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:p-5 font-semibold'>Services</span>
+            <span className='text-xl md:px-2 font-semibold'>Services</span>
         </NavLink>
         <NavLink
             to='/package'
@@ -44,7 +44,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:p-5 font-semibold'>Packages</span>
+            <span className='text-xl md:px-2 font-semibold'>Packages</span>
         </NavLink>
         <NavLink
             to='/contact'
@@ -54,7 +54,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:p-5 font-semibold'>Contact</span>
+            <span className='text-xl md:px-2 font-semibold'>Contact Us</span>
         </NavLink>
         <NavLink
             to='/login'
@@ -64,7 +64,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:p-5 font-semibold'>Register</span>
+            <span className='text-xl md:px-2 font-semibold'>Register</span>
         </NavLink>
     </>
 
@@ -83,7 +83,7 @@ const Header = () => {
                     <Link to='/' className="flex justify-center items-center text-[#86b817] hover:border-2 normal-case text-3xl"><FaLocationDot /> Tourist</Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal">
                         {navList}
                     </ul>
                 </div>
