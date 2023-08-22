@@ -14,7 +14,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform tracking-wide"
             }
         >
-            <span className='text-xl  font-semibold'>Home</span>
+            <span className='text-xl md:px-3  font-semibold'>Home</span>
         </NavLink>
         <NavLink
             to='/about'
@@ -24,7 +24,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:px-3 md:mr-2 font-semibold'>About</span>
+            <span className='text-xl md:px-3  font-semibold'>About</span>
         </NavLink>
         <NavLink
             to='/service'
@@ -34,7 +34,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:px-3 md:mr-2 font-semibold'>Services</span>
+            <span className='text-xl md:px-3  font-semibold'>Services</span>
         </NavLink>
         <NavLink
             to='/package'
@@ -44,7 +44,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:px-3 md:mr-2 font-semibold'>Packages</span>
+            <span className='text-xl md:px-3  font-semibold'>Packages</span>
         </NavLink>
         <NavLink
             to='/contact'
@@ -54,7 +54,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:px-3 md:mr-2 font-semibold'>Contact Us</span>
+            <span className='text-xl md:px-3  font-semibold'>Contact Us</span>
         </NavLink>
         <NavLink
             to='/login'
@@ -64,7 +64,7 @@ const Header = () => {
                         : "hover:border-b-2 border-[#86b817] transition-transform "
             }
         >
-            <span className='text-xl md:px-3 md:mr-2 font-semibold'>Register</span>
+            <span className='text-xl md:px-3  font-semibold'>Register</span>
         </NavLink>
     </>
 
@@ -82,7 +82,7 @@ const Header = () => {
                     </div>
                     <Link to='/' className="flex justify-center items-center text-[#86b817] hover:border-2 normal-case text-3xl"><FaLocationDot /> Tourist</Link>
                 </div>
-                <div className="navbar-end hidden lg:flex">
+                <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal">
                         {navList}
                     </ul>
