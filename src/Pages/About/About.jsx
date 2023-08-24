@@ -1,4 +1,15 @@
 import React from "react";
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-flip";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./styles.css";
+
+import { EffectFlip, Pagination, Navigation } from "swiper/modules";
 
 const About = () => {
   return (
@@ -53,9 +64,43 @@ const About = () => {
             </div>
           </div>
           <div className="md:mt-5">
-          <button className='btn bg-[#86b817] hover:bg-amber-500 text-white'>Explore More</button>
+            <button className="btn bg-[#86b817] hover:bg-amber-500 text-white">
+              Explore More
+            </button>
           </div>
         </div>
+      </div>
+      <div>
+        <div className="text-center space-y-3 md:mb-10">
+          <h3 className="text-3xl font-semibold text-[#86b817]">Instagram Post</h3>
+        </div>
+        <Swiper
+          effect={"flip"}
+          grabCursor={true}
+          pagination={true}
+          navigation={true}
+          modules={[EffectFlip, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src="https://i.ibb.co/XFDgZwr/image-6.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://i.ibb.co/wKGdQdW/image-7.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://i.ibb.co/swB7tFx/image-8-1.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://i.ibb.co/dPMk5yP/image-8.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://i.ibb.co/xsncRFQ/image-9.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://i.ibb.co/ygmcTy7/img.png" />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
