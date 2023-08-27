@@ -4,7 +4,7 @@ import Rating from "react-rating";
 
 const Package = () => {
   return (
-    <div className="md:mb-16 md:mt-10 md:mx-16">
+    <div className="md:mb-16 md:mt-10">
       <div className="text-center space-y-3 md:mb-10">
         <h3 className="text-3xl font-semibold">Holiday Packeg</h3>
       </div>
