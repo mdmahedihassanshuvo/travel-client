@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaLocationDot } from 'react-icons/fa6';
 import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../../Provider/AuthProvider';
 // import './Header.css'
 
 const Header = () => {
+
+    const {user} = useContext(AuthContext)
 
     const navList = <>
         <NavLink
@@ -56,7 +59,20 @@ const Header = () => {
         >
             <span className='text-xl md:px-3  font-semibold'>Contact Us</span>
         </NavLink>
-        <NavLink
+        {
+            user ? 
+            <NavLink
+            to='/dashboard'
+            className={({ isActive }) =>
+                isActive
+                    ? "text-[#86b817]"
+                        : "hover:border-b-2 border-[#86b817] transition-transform "
+            }
+        >
+            <span className='text-xl md:px-3  font-semibold'>Dashboard</span>
+        </NavLink>
+            : 
+            <NavLink
             to='/login'
             className={({ isActive }) =>
                 isActive
@@ -66,6 +82,7 @@ const Header = () => {
         >
             <span className='text-xl md:px-3  font-semibold'>Register</span>
         </NavLink>
+        }
     </>
 
     return (
