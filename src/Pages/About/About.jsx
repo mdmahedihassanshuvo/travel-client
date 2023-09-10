@@ -10,10 +10,12 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 import { EffectFlip, Pagination, Navigation } from "swiper/modules";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <div>
+      <Helmet title='Tourist - About Us'/>
       <div
         className="hero min-h-screen md:mb-16"
         style={{

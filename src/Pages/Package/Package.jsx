@@ -1,10 +1,12 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { FaStar } from "react-icons/fa6";
 import Rating from "react-rating";
 
 const Package = () => {
   return (
-    <div className="md:mb-16 md:mt-10">
+    <div className="md:m-16">
+      <Helmet title='Tourist - Package'/>
       <div className="text-center space-y-3 md:mb-10">
         <h3 className="text-3xl font-semibold">Holiday Packeg</h3>
       </div>

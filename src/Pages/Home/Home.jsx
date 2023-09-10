@@ -8,10 +8,12 @@ import Booking from '../../Components/HomeSections/Booking';
 import Process from '../../Components/HomeSections/Process';
 import Guide from '../../Components/HomeSections/Guide';
 import Testimonial from '../../Components/HomeSections/Testimonial';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div>
+            <Helmet title='Tourist - Home'/>
             <Hero/>
             <Welcome/>
             <Services/>

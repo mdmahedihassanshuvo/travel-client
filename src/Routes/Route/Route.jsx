@@ -11,6 +11,7 @@ import Profile from "../../Pages/Profile/Profile";
 import Dashboard from "../../Dashboard/Dashboard";
 import Plan from "../../Components/Dashboard/Plan";
 import Tour from "../../Components/Dashboard/Tour";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -49,20 +50,24 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <Dashboard />,
+    element: (
+      <PrivateRoute>
+        <Dashboard />
+      </PrivateRoute>
+    ),
     children: [
       {
         path: "profile",
         element: <Profile />,
       },
       {
-        path: 'selectedplan',
-        element: <Plan/>
+        path: "selectedplan",
+        element: <Plan />,
       },
       {
-        path: 'tour',
-        element: <Tour/>
-      }
+        path: "tour",
+        element: <Tour />,
+      },
     ],
   },
 ]);

@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="">
                     <h1 className="mb-5 text-5xl font-bold">Enjoy Your Vacation With Us</h1>
                     <p>Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
-                    <input type="text" placeholder='Enter Bangladesh Travel Place' className='mt-2 md:w-96 p-2 rounded-3xl text-center border-2 border-[#86b817]' />
+                    <input type="text" placeholder='Enter Travel Places' className='mt-2 md:w-96 p-2 rounded-3xl text-center border-2 border-[#86b817]' />
                 </div>
             </div>
         </div>

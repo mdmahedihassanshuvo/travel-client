@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Welcome = () => {
     return (
@@ -23,7 +24,7 @@ const Welcome = () => {
                     <p className='flex items-center md:gap-10'><FaArrowRight className='text-[#86b817]'/> Latest Model Vehicles</p>
                     <p className='flex items-center md:gap-10'><FaArrowRight className='text-[#86b817]'/> 24/7 Service</p>
                 </div>
-                <button className='btn bg-[#86b817] hover:bg-amber-500 text-white'>Read More</button>
+                <button className='btn bg-[#86b817] hover:bg-amber-500 text-white'><Link to='/about'>Read More</Link></button>
             </div>
         </div>
     );

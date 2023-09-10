@@ -1,11 +1,13 @@
 import React from "react";
 import img4 from "../../assets/img/icon2/img4.png";
+import { Helmet } from "react-helmet-async";
 
 const Service = () => {
   return (
-    <div className="md:my-16 md:mx-16">
+    <div className="md:m-16">
+      <Helmet title='Tourist - Services'/>
       <div className="bg-none">
-        <div className="text-center space-y-3 md:mb-10">
+        <div className="text-center space-y-3 ">
           <h3 className="text-3xl font-semibold">Why Chooce Us </h3>
         </div>
         <div className="flex justify-between md:gap-8">
