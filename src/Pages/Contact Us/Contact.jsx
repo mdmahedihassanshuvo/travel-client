@@ -9,8 +9,7 @@ const Contact = () => {
     <div className="md:mb-16 md:mx-16 md:mt-10">
       <Helmet title='Tourist - Contact Us'/>
       <div className="text-center space-y-3 md:mb-10">
-        <p className="text-[#86b817] text-lg">Services</p>
-        <h3 className="text-3xl font-semibold">Our Services</h3>
+        <h3 className="text-3xl font-semibold">Contact Us</h3>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-2 lg:mx-5 mb-4 lg:mb-32">
         <div className="p-5 text-white rounded-lg bg-[#86b817]">

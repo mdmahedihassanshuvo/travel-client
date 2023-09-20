@@ -76,7 +76,7 @@ const Dashboard = () => {
                 }
               >
                 <span className="text-lg hover:text-green-500 font-medium">
-                  Paid Tour Plan
+                  Tour Plan Schedule
                 </span>
               </NavLink>
             </li>

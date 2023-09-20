@@ -7,7 +7,7 @@ const Service = () => {
     <div className="md:m-16">
       <Helmet title='Tourist - Services'/>
       <div className="bg-none">
-        <div className="text-center space-y-3 ">
+        <div className="text-center space-y-3 lg:mb-10  ">
           <h3 className="text-3xl font-semibold">Why Chooce Us </h3>
         </div>
         <div className="flex justify-between md:gap-8">
@@ -17,7 +17,7 @@ const Service = () => {
                 src="https://i.ibb.co/g4SyBXC/planning-9402387-1.png"
                 alt=""
               />
-              <h4 className='font-semibold text-xl'>Reservation Manegment</h4>
+              <h4 className='font-semibold text-xl text-[#86b817]'>Reservation Manegment</h4>
               <p>
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the
@@ -25,7 +25,7 @@ const Service = () => {
             </div>
             <div className="rounded-2xl py-0 px-3 space-y-2 shadow-2xl">
               <img src={img4} alt="" />
-              <h4 className='font-semibold text-xl'>Payment Flexiblity</h4>
+              <h4 className='font-semibold text-xl text-[#86b817]'>Payment Flexiblity</h4>
               <p>
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the
@@ -33,7 +33,7 @@ const Service = () => {
             </div>
             <div className="rounded-2xl py-0 px-3 space-y-2 shadow-2xl">
               <img src="https://i.ibb.co/vYxyB8s/globe-6556412-1.png" alt="" />
-              <h4 className='font-semibold text-xl'>Customize Tour Pack</h4>
+              <h4 className='font-semibold text-xl text-[#86b817]'>Customize Tour Pack</h4>
               <p>
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the
@@ -41,7 +41,7 @@ const Service = () => {
             </div>
             <div className="rounded-2xl py-0 px-3 space-y-2 shadow-2xl">
               <img src="https://i.ibb.co/vYxyB8s/globe-6556412-1.png" alt="" />
-              <h4 className='font-semibold text-xl'>World Wide Tour Operators</h4>
+              <h4 className='font-semibold text-xl text-[#86b817]'>World Wide Tour Operators</h4>
               <p>
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the

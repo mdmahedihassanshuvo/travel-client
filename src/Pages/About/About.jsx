@@ -72,7 +72,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="text-center space-y-3 md:mb-10">
           <h3 className="text-3xl font-semibold text-[#86b817]">Instagram Post</h3>
         </div>
@@ -103,7 +103,7 @@ const About = () => {
             <img src="https://i.ibb.co/ygmcTy7/img.png" />
           </SwiperSlide>
         </Swiper>
-      </div>
+      </div> */}
     </div>
   );
 };
